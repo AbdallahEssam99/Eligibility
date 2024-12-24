@@ -1,0 +1,32 @@
+{
+  "name": "Availity_eligibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "rm -rf dist",
+    "start": "npm run build && node dist/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/string-similarity": "^4.0.2",
+    "dotenv": "^16.4.7",
+    "dotenv-cli": "^7.4.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "csv-parser": "^3.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "string-similarity": "^4.0.4",
+    "xlsx": "^0.18.5"
+  }
+}
